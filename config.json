@@ -116,13 +116,13 @@
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 19977
+        "port": 19977,
+	"rpcMethod": "getBalance"
     },
 
     "redis": {
         "host": "flybreak.redis.cache.windows.net",
-        "port": 6379,
-        "auth": "4jS+jEYZrJypvHiN2sr7V7BXQZDKHpAtWKVRr5uYDOA="
+        "port": 6379
     },
 
     "monitoring": {
@@ -132,7 +132,7 @@
         },
         "wallet": {
             "checkInterval": 60,
-            "rpcMethod": "getbalance"
+            "rpcMethod": "getBalance"
         }
     },
 
