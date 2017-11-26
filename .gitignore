@@ -1,4 +1,6 @@
-node_modules/
-.idea/
-config.json
-logs/
+node_modules
+build
+package-lock.json
+*.save
+logs
+website/80

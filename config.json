@@ -19,9 +19,9 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "KhnW3G3drtQSN6cUGMKgvJZwctb9dir21CGrcaSxEzmh8mm8RakMooQjeEZ6wVMXwkLm2GqM965ovVnKg3hFCCMYTxYUP8H",
+        "poolAddress": "KgyaTGZU9VzGU8As9VWAF31yz8ZyaSEeX6MHBvnRPH9uLaMGktTPYuWFmBTWNnyyWMZNdYpdpe8F9Fub2Y3p4ATnP1kyxpe",
         "blockRefreshInterval": 1000,
-		"addressSeparator": ".",
+	"addressSeparator": ".",
         "minerTimeout": 900,
         "ports": [
             {
@@ -106,7 +106,7 @@
         "port": 8117,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password"
+        "password": "password"
     },
 
     "daemon": {
@@ -120,8 +120,9 @@
     },
 
     "redis": {
-        "host": "127.0.0.1",
-        "port": 6379
+        "host": "flybreak.redis.cache.windows.net",
+        "port": 6379,
+        "auth": "4jS+jEYZrJypvHiN2sr7V7BXQZDKHpAtWKVRr5uYDOA="
     },
 
     "monitoring": {

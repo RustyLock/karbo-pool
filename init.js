@@ -10,7 +10,7 @@ require('./lib/configReader.js');
 require('./lib/logger.js');
 
 
-global.redisClient = redis.createClient(config.redis.port, config.redis.host);
+global.redisClient = redis.createClient(config.redis.port, config.redis.host, config.redis.auth ? { "auth_pass": "4jS+jEYZrJypvHiN2sr7V7BXQZDKHpAtWKVRr5uYDOA=" } : {} );
 
 
 if (cluster.isWorker){
